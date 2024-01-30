@@ -3,5 +3,5 @@ The purpose of this activity was to experiment and prove a new architecture for 
 The result of this experiment was to build the feature following the table spec, using CSS grid to modify the visual alignment of the cells to look like the list.
 
 ## Resources
-1. [Experiment videos]()
+1. [Experiment videos](https://drive.google.com/drive/folders/1WedV6mHOJz8qZwm2LR2d6LPAyj8XiNeN?usp=sharing)
 2. [Presentation ]()
