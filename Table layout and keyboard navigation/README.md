@@ -10,5 +10,5 @@ Stretch goal was to support keyboard navigation for the editable cells as descri
 
 ## Demo
 1. [Demo code](https://github.com/joshharrison626/prototypes/tree/main/Table%20layout%20and%20keyboard%20navigation/src)
-2. [Demo video](https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing)
+2. [Demo video](https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing) - (Google drive)
 
