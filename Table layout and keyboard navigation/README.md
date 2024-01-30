@@ -6,5 +6,6 @@ The purpose of this prototype was to architect an appropriate HTML table layout 
 1. Demonstrate an appropriate layout for supporting expand/collapse and multiple, editable inputs in either a single cell or multiple cells
 2. Support keyboard navigation in the editable cells using up/down/left/right arrows and native tab/shift-tab
 
+## Demo
 1. [Demo Video](https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing)
 2. 
