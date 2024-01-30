@@ -6,5 +6,5 @@ My objective was to prove whether the "list" should be built as an HTML list (su
 The result of this experiment was to build the feature following the table spec, using CSS grid to modify the visual alignment of the cells to look like the list.
 
 ## Resources
-1. [Experiment videos](https://drive.google.com/drive/folders/1WedV6mHOJz8qZwm2LR2d6LPAyj8XiNeN?usp=sharing)
+1. [Experiment videos](https://drive.google.com/drive/folders/1WedV6mHOJz8qZwm2LR2d6LPAyj8XiNeN?usp=sharing) - (Google Drive)
 2. [Presentation ](https://github.com/joshharrison626/prototypes/blob/main/Table%20List%20architecture/Design%20%2B%20PD%20Quality%20Experiment.pptx)
