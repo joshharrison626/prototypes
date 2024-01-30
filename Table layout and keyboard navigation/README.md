@@ -8,4 +8,4 @@ The purpose of this prototype was to architect an appropriate HTML table layout 
 
 ## Demo
 1. [Demo Video](https://drive.google.com/file/d/17bI9G31jOisRproRTugQLD8XsfIPHyHk/view?usp=sharing)
-2. 
+2. [Demo code)(https://github.com/joshharrison626/prototypes/tree/main/Table%20layout%20and%20keyboard%20navigation/src)
