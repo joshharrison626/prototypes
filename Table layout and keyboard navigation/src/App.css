@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App table {
+  width: 70vw;
+}
+
+.App table, .App th, .App td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.App td, .App th {
+  vertical-align: top;
+  padding: 8px;
+}
+
+.App tr {
+  line-height: 10px;
+  transition: line-height 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.App td.expanded {
+  line-height: 28px;
+  transition: line-height 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  @media (prefers-reduced-motion) {
+    transition: none;
+  }
+}
+
+.App tr td:nth-child(2) > * {
+  /* marg?in: 8px 0; */
+}
+
+.App i.collapsed {
+  transform: rotate(0deg);
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  @media (prefers-reduced-motion) {
+    transition: none;
+  }
+}
+
+.App i.expanded {
+  transform: rotate(90deg);
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  @media (prefers-reduced-motion) {
+    transition: none;
+  }
+}
+
+.App .edit-text {
+  width: 32px;
+}
+
+.App .grid-container {
+}
+
+[data-area="expand"] {
+  grid-area: expand;
+}
+
+[data-area="customer"] {
+  grid-area: customer;
+}
+
+[data-area="details"] {
+  grid-area: details;
+}
+
+[data-area="day"] {
+  grid-area: day;
+}
+
+[data-area="row"] {
+  grid-area: row;
+}
