@@ -1,3 +1,4 @@
+# Table / List architecture
 The purpose of this activity was to experiment and prove a new architecture for an old feature that was being updated. The old feature displayed a list of workers and metadata describing the worker's activities. The list was not built for accessibility and did not meet HTML spec standards for a table or list layout.
 
 My objective was to prove whether the "list" should be built as an HTML list (suggested by our accessibility leader) or as an HTML table (suggested by our customer).
