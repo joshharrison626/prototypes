@@ -1,0 +1,189 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b0a6a6;
+  height: 100svh;
+  flex-wrap: wrap;
+  > * {
+    margin: auto 20px;
+  }
+}
+
+svg {
+  height: 50vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  g#backdrop-circle {
+    animation: App-backdrop-circle-fadein 1.5s ease-in-out;
+  }
+  g#right-image {
+    animation: App-right-image-slidein 1.5s ease-in-out;
+  }
+  g#left-image {
+    animation: App-left-image-slidein 1.5s ease-in-out;
+  }
+  g#money {
+    opacity: 0;
+    animation: App-money-transfer 1.5s 3s ease-in-out infinite;
+  }
+  path.mower {
+    animation: App-mower-start .1s 2s linear infinite;
+  }
+  path.right-arm {
+    transform: rotate(-66deg) translate(20px, 52px);
+    transform-origin: center;
+    animation: App-right-arm-raise .5s 2.5s linear forwards;
+  }
+  path.scale-it {
+    transform-origin: center;
+    animation: App-scale-it 3s cubic-bezier(0.45, -0.31, 0.47, 1.26) infinite;
+  }
+  path.scale-it-more {
+    transform-origin: center;
+    animation: App-scale-it-more 3s cubic-bezier(0.45, -0.31, 0.47, 1.26) infinite;
+  }
+  g#dance-dance {
+    transform-origin: center;
+    animation: App-dance-dance 1s steps(1, end) infinite;
+  }
+  path.test {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 0;
+    animation: dash 3s linear alternate infinite;
+  }
+}
+
+.right-arm {
+  transform: rotate(-66deg) translate(20px, 52px);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-backdrop-circle-fadein {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes App-right-image-slidein {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes App-left-image-slidein {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes App-money-transfer {
+  0% {
+    transform: translate(-20%, 15%);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-5%, 0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-3%, 15%);
+    opacity: 0;
+  }
+}
+
+@keyframes App-mower-start {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(1%);
+  }
+}
+
+@keyframes App-right-arm-raise {
+  0% {
+    transform: rotate(-66deg) translate(20px, 52px);
+  }
+  25% {
+    transform: rotate(-49.5deg) translate(22px, 38px);
+  }
+  50% {
+    transform: rotate(-33deg) translate(16px, 26px);
+  }
+  75% {
+    transform: rotate(-16.5deg) translate(10px, 13px);
+  }
+  100% {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+}
+
+@keyframes App-scale-it {
+  0% {
+    transform: scale(0%);
+  }
+  50% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(0%);
+  }
+}
+
+@keyframes App-scale-it-more {
+  0% {
+    transform: scale(0%);
+  }
+  50% {
+    transform: scale(100%);
+  }
+  55% {
+    transform: scale(120%);
+  }
+  100% {
+    transform: scale(0%);
+  }
+}
+
+@keyframes App-dance-dance {
+  0% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
