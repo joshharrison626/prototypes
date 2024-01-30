@@ -4,3 +4,4 @@ My task was to investigate how competitors and/or industry leaders support date/
 
 ## Competitive Analysis
 1. [INV: How should DateTimeSelect fields support time increments](https://github.com/joshharrison626/prototypes/blob/main/Time%20input%20fields/INV_%20How%20should%20DateTimeSelect%20support%20time%20increments.docx)
+2. [Prototype]() - (in progress)
